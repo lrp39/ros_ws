@@ -1,0 +1,8 @@
+prefix=/home/lrp39/ros_ws/devel
+
+Name: pt5_models
+Description: Description of pt5_models
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lrp39/ros_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/lrp39/ros_ws/install
+
+Name: rrbot
+Description: Description of rrbot
+Version: 0.0.0
+Cflags: -I/home/lrp39/ros_ws/install/include
+Libs: -L/home/lrp39/ros_ws/install/lib -lrrbot_fk_ik -lplanar_3rbot_fk_ik
+Requires: roscpp sensor_msgs geometry_msgs std_msgs

@@ -1,0 +1,8 @@
+prefix=/home/lrp39/ros_ws/install
+
+Name: baxter_on_mobot
+Description: Description of baxter_on_mobot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lrp39/ros_ws/install/lib 
+Requires: 

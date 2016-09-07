@@ -1,0 +1,2 @@
+set(navigator_MESSAGE_FILES "/home/lrp39/ros_ws/devel/share/navigator/msg/navigatorAction.msg;/home/lrp39/ros_ws/devel/share/navigator/msg/navigatorActionGoal.msg;/home/lrp39/ros_ws/devel/share/navigator/msg/navigatorActionResult.msg;/home/lrp39/ros_ws/devel/share/navigator/msg/navigatorActionFeedback.msg;/home/lrp39/ros_ws/devel/share/navigator/msg/navigatorGoal.msg;/home/lrp39/ros_ws/devel/share/navigator/msg/navigatorResult.msg;/home/lrp39/ros_ws/devel/share/navigator/msg/navigatorFeedback.msg")
+set(navigator_SERVICE_FILES "")

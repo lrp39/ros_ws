@@ -1,0 +1,8 @@
+prefix=/home/lrp39/ros_ws/devel
+
+Name: pcl_utils
+Description: Description of pcl_utils
+Version: 0.0.0
+Cflags: -I/home/lrp39/ros_ws/src/learning_ros/Part_3/pcl_utils/include
+Libs: -L/home/lrp39/ros_ws/devel/lib -lpcl_utils
+Requires: roscpp pcl_ros pcl_conversions pcl_msgs sensor_msgs std_msgs tf xform_utils

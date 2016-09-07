@@ -1,0 +1,8 @@
+prefix=/home/lrp39/ros_ws/install
+
+Name: mobot_urdf
+Description: Description of mobot_urdf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lrp39/ros_ws/install/lib 
+Requires: roscpp std_msgs

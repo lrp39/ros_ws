@@ -1,0 +1,8 @@
+prefix=/home/lrp39/ros_ws/devel
+
+Name: navigator
+Description: Description of navigator
+Version: 0.0.0
+Cflags: -I/home/lrp39/ros_ws/devel/include
+Libs: -L/home/lrp39/ros_ws/devel/lib 
+Requires: message_runtime roscpp std_msgs geometry_msgs nav_msgs traj_builder actionlib

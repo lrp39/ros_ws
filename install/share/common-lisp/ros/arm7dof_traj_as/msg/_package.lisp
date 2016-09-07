@@ -1,0 +1,19 @@
+(cl:defpackage arm7dof_traj_as-msg
+  (:use )
+  (:export
+   "<TRAJACTION>"
+   "TRAJACTION"
+   "<TRAJRESULT>"
+   "TRAJRESULT"
+   "<TRAJACTIONFEEDBACK>"
+   "TRAJACTIONFEEDBACK"
+   "<TRAJFEEDBACK>"
+   "TRAJFEEDBACK"
+   "<TRAJGOAL>"
+   "TRAJGOAL"
+   "<TRAJACTIONGOAL>"
+   "TRAJACTIONGOAL"
+   "<TRAJACTIONRESULT>"
+   "TRAJACTIONRESULT"
+  ))
+

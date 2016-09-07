@@ -1,0 +1,8 @@
+prefix=/home/lrp39/ros_ws/install
+
+Name: coordinator
+Description: Description of coordinator
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lrp39/ros_ws/install/lib 
+Requires: roscpp object_finder object_grabber actionlib tf geometry_msgs std_msgs

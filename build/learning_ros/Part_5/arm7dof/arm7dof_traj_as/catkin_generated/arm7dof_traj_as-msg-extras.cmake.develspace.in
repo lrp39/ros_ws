@@ -1,0 +1,2 @@
+set(arm7dof_traj_as_MESSAGE_FILES "/home/lrp39/ros_ws/devel/share/arm7dof_traj_as/msg/trajAction.msg;/home/lrp39/ros_ws/devel/share/arm7dof_traj_as/msg/trajActionGoal.msg;/home/lrp39/ros_ws/devel/share/arm7dof_traj_as/msg/trajActionResult.msg;/home/lrp39/ros_ws/devel/share/arm7dof_traj_as/msg/trajActionFeedback.msg;/home/lrp39/ros_ws/devel/share/arm7dof_traj_as/msg/trajGoal.msg;/home/lrp39/ros_ws/devel/share/arm7dof_traj_as/msg/trajResult.msg;/home/lrp39/ros_ws/devel/share/arm7dof_traj_as/msg/trajFeedback.msg")
+set(arm7dof_traj_as_SERVICE_FILES "")

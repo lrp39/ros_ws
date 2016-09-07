@@ -1,0 +1,8 @@
+prefix=/home/lrp39/ros_ws/devel
+
+Name: simple_camera_model
+Description: Description of simple_camera_model
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lrp39/ros_ws/devel/lib 
+Requires: 
