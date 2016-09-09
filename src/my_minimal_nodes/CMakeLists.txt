@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(my_minimal_nodes)
 
+##Declare a cpp executable
+add_executable(my_minimal_publisher src/my_minimal_publisher.cpp)
+
+##Specify libraries to link a library or executable target against
+target_link_libraries(my_minimal_publisher ${catkin_LIBRARIES})
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
