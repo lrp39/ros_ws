@@ -1,0 +1,8 @@
+prefix=/home/lrp39/ros_ws/devel
+
+Name: sin_commander
+Description: Description of sin_commander
+Version: 0.0.0
+Cflags: -I/home/lrp39/ros_ws/src/sin_commander/include
+Libs: -L/home/lrp39/ros_ws/devel/lib 
+Requires: roscpp std_msgs

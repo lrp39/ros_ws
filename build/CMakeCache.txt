@@ -1767,6 +1767,12 @@ simple_camera_model_BINARY_DIR:STATIC=/home/lrp39/ros_ws/build/learning_ros/Part
 simple_camera_model_SOURCE_DIR:STATIC=/home/lrp39/ros_ws/src/learning_ros/Part_3/simple_camera_model
 
 //Value Computed by CMake
+sin_commander_BINARY_DIR:STATIC=/home/lrp39/ros_ws/build/sin_commander
+
+//Value Computed by CMake
+sin_commander_SOURCE_DIR:STATIC=/home/lrp39/ros_ws/src/sin_commander
+
+//Value Computed by CMake
 sine_commander_BINARY_DIR:STATIC=/home/lrp39/ros_ws/build/learning_ros/Part_2/sine_commander
 
 //Value Computed by CMake
@@ -1991,7 +1997,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=67
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=68
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

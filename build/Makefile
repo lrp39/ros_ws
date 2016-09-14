@@ -2373,6 +2373,19 @@ test_baxter_gripper/fast:
 .PHONY : test_baxter_gripper/fast
 
 #=============================================================================
+# Target rules for targets named sin_commander_package
+
+# Build rule for target.
+sin_commander_package: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sin_commander_package
+.PHONY : sin_commander_package
+
+# fast build rule for target.
+sin_commander_package/fast:
+	$(MAKE) -f sin_commander/CMakeFiles/sin_commander_package.dir/build.make sin_commander/CMakeFiles/sin_commander_package.dir/build
+.PHONY : sin_commander_package/fast
+
+#=============================================================================
 # Target rules for targets named sine_commander
 
 # Build rule for target.
@@ -6222,6 +6235,7 @@ help:
 	@echo "... simple_baxter_gripper_interface"
 	@echo "... simple_baxter_gripper_interface_package"
 	@echo "... test_baxter_gripper"
+	@echo "... sin_commander_package"
 	@echo "... sine_commander"
 	@echo "... sine_commander_package"
 	@echo "... reactive_commander"

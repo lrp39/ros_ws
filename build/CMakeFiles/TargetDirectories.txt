@@ -406,6 +406,7 @@
 /home/lrp39/ros_ws/build/learning_ros/Part_5/baxter/simple_baxter_gripper_interface/CMakeFiles/simple_baxter_gripper_interface.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_5/baxter/simple_baxter_gripper_interface/CMakeFiles/simple_baxter_gripper_interface_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_3/simple_camera_model/CMakeFiles/simple_camera_model_package.dir
+/home/lrp39/ros_ws/build/sin_commander/CMakeFiles/sin_commander_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_2/sine_commander/CMakeFiles/sine_commander.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_2/sine_commander/CMakeFiles/sine_commander_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/minimal_nodes/CMakeFiles/sleepy_minimal_publisher.dir

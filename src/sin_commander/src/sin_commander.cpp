@@ -1,30 +1,36 @@
-#include<ros/ros.h> 
+#include <ros/ros.h>
 #include<std_msgs/Float64.h> 
 #include <math.h>  
+#include <iostream>
 
 #define PI 3.14159
 
-std_msgs::Float64 g_amplitude;
-std_msgs::Float64 g_frequency;
-std_msgs::Float64 g_time;
-std_msgs::Float64 g_velocity;
-
 int main(int argc, char **argv) {
-    ros::init(argc, argv, "sin_controller"); 
-    ros::NodeHandle nh; 
-
-    ros::Subscriber my_subscriber_object1 = nh.subscribe("amplitude", 1, myCallbackAmplitude);
-    ros::Subscriber my_subscriber_object2 = nh.subscribe("frequency", 1, myCallbackFrequency);
+    ros::init(argc, argv, "sin_commander");
+    ros::NodeHandle nh;
 
      ros::Publisher my_publisher_object = nh.advertise<std_msgs::Float64>("vel_cmd", 1);
-     g_amplitude =0.0;
-     g_frequency=0.0;
-     g_time=0.0;
-     g_velocity=0.0;
-     std_msgs::Float64 w = g_frequency *PI *2 * g_time; //angular frequecy = 2*pi*f
-     g_velocity = g_amplitude * sin(w*g_time); //velocity = A sin(wt);
 
-     while(ros::ok)
+    //;ros::Subscriber my_subscriber_object1 = nh.subscribe("amplitude", 1, myCallbackAmplitude);
+    //ros::Subscriber my_subscriber_object2 = nh.subscribe("frequency", 1, myCallbackFrequency);
+    std_msgs::Float64 t =0.0;
 
+    while (ros::ok()) {
+    	std_msgs::Float64 amplitude;
+		std_msgs::Float64 frequency;
+		std_msgs::Float64 velocity; 
 
-
+        cout<<endl;
+        cout << "enter an amplitude (x to quit): ";
+        cin>>amplitude;
+        cout<<endl;
+        cout << "enter a frequency (x to quit): ";
+        cin>>frequency;
+        if (amplitude.compare("x")==0 || frequency.compare("x")==0)
+            return 0;
+        else {
+        	velocity = amplitude * sin(frequency * PI);
+       		my_publisher_object.publish(velocity);
+    }
+    return 0;
+}
