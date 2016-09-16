@@ -2100,6 +2100,19 @@ my_minimal_nodes_package/fast:
 .PHONY : my_minimal_nodes_package/fast
 
 #=============================================================================
+# Target rules for targets named sin_commander
+
+# Build rule for target.
+sin_commander: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sin_commander
+.PHONY : sin_commander
+
+# fast build rule for target.
+sin_commander/fast:
+	$(MAKE) -f my_minimal_nodes/CMakeFiles/sin_commander.dir/build.make my_minimal_nodes/CMakeFiles/sin_commander.dir/build
+.PHONY : sin_commander/fast
+
+#=============================================================================
 # Target rules for targets named inner_vel_loop
 
 # Build rule for target.
@@ -6227,6 +6240,7 @@ help:
 	@echo "... mobot_urdf_package"
 	@echo "... minimal_publisher3"
 	@echo "... my_minimal_nodes_package"
+	@echo "... sin_commander"
 	@echo "... inner_vel_loop"
 	@echo "... nested_loop_control_package"
 	@echo "... test_inner_vel_loop"
