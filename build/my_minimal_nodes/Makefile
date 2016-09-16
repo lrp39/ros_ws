@@ -150,25 +150,39 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/rule:
-	cd /home/lrp39/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/rule
-.PHONY : my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/rule
+my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/rule:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/rule
+.PHONY : my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/rule
 
 # Convenience name for target.
-my_minimal_publisher: my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/rule
-.PHONY : my_minimal_publisher
+minimal_publisher3: my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/rule
+.PHONY : minimal_publisher3
 
 # fast build rule for target.
-my_minimal_publisher/fast:
-	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/build.make my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/build
-.PHONY : my_minimal_publisher/fast
+minimal_publisher3/fast:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build.make my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build
+.PHONY : minimal_publisher3/fast
+
+# Convenience name for target.
+my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/rule:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/rule
+.PHONY : my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/rule
+
+# Convenience name for target.
+my_minimal_nodes_package: my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/rule
+.PHONY : my_minimal_nodes_package
+
+# fast build rule for target.
+my_minimal_nodes_package/fast:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/build.make my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/build
+.PHONY : my_minimal_nodes_package/fast
 
 src/minimal_publisher.o: src/minimal_publisher.cpp.o
 .PHONY : src/minimal_publisher.o
 
 # target to build an object file
 src/minimal_publisher.cpp.o:
-	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/build.make my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build.make my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/src/minimal_publisher.cpp.o
 .PHONY : src/minimal_publisher.cpp.o
 
 src/minimal_publisher.i: src/minimal_publisher.cpp.i
@@ -176,7 +190,7 @@ src/minimal_publisher.i: src/minimal_publisher.cpp.i
 
 # target to preprocess a source file
 src/minimal_publisher.cpp.i:
-	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/build.make my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.i
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build.make my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/src/minimal_publisher.cpp.i
 .PHONY : src/minimal_publisher.cpp.i
 
 src/minimal_publisher.s: src/minimal_publisher.cpp.s
@@ -184,7 +198,7 @@ src/minimal_publisher.s: src/minimal_publisher.cpp.s
 
 # target to generate assembly for a file
 src/minimal_publisher.cpp.s:
-	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/build.make my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.s
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build.make my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/src/minimal_publisher.cpp.s
 .PHONY : src/minimal_publisher.cpp.s
 
 # Help Target
@@ -198,7 +212,8 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... my_minimal_publisher"
+	@echo "... minimal_publisher3"
+	@echo "... my_minimal_nodes_package"
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... src/minimal_publisher.o"

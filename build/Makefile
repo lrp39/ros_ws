@@ -2074,6 +2074,32 @@ mobot_urdf_package/fast:
 .PHONY : mobot_urdf_package/fast
 
 #=============================================================================
+# Target rules for targets named minimal_publisher3
+
+# Build rule for target.
+minimal_publisher3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 minimal_publisher3
+.PHONY : minimal_publisher3
+
+# fast build rule for target.
+minimal_publisher3/fast:
+	$(MAKE) -f my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build.make my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build
+.PHONY : minimal_publisher3/fast
+
+#=============================================================================
+# Target rules for targets named my_minimal_nodes_package
+
+# Build rule for target.
+my_minimal_nodes_package: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_minimal_nodes_package
+.PHONY : my_minimal_nodes_package
+
+# fast build rule for target.
+my_minimal_nodes_package/fast:
+	$(MAKE) -f my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/build.make my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/build
+.PHONY : my_minimal_nodes_package/fast
+
+#=============================================================================
 # Target rules for targets named inner_vel_loop
 
 # Build rule for target.
@@ -2371,19 +2397,6 @@ test_baxter_gripper: cmake_check_build_system
 test_baxter_gripper/fast:
 	$(MAKE) -f learning_ros/Part_5/baxter/simple_baxter_gripper_interface/CMakeFiles/test_baxter_gripper.dir/build.make learning_ros/Part_5/baxter/simple_baxter_gripper_interface/CMakeFiles/test_baxter_gripper.dir/build
 .PHONY : test_baxter_gripper/fast
-
-#=============================================================================
-# Target rules for targets named sin_commander_package
-
-# Build rule for target.
-sin_commander_package: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sin_commander_package
-.PHONY : sin_commander_package
-
-# fast build rule for target.
-sin_commander_package/fast:
-	$(MAKE) -f sin_commander/CMakeFiles/sin_commander_package.dir/build.make sin_commander/CMakeFiles/sin_commander_package.dir/build
-.PHONY : sin_commander_package/fast
 
 #=============================================================================
 # Target rules for targets named sine_commander
@@ -6212,6 +6225,8 @@ help:
 	@echo "... mobot_nl_steering"
 	@echo "... mobot_nl_steering_package"
 	@echo "... mobot_urdf_package"
+	@echo "... minimal_publisher3"
+	@echo "... my_minimal_nodes_package"
 	@echo "... inner_vel_loop"
 	@echo "... nested_loop_control_package"
 	@echo "... test_inner_vel_loop"
@@ -6235,7 +6250,6 @@ help:
 	@echo "... simple_baxter_gripper_interface"
 	@echo "... simple_baxter_gripper_interface_package"
 	@echo "... test_baxter_gripper"
-	@echo "... sin_commander_package"
 	@echo "... sine_commander"
 	@echo "... sine_commander_package"
 	@echo "... reactive_commander"

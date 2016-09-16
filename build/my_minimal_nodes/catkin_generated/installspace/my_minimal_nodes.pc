@@ -3,6 +3,6 @@ prefix=/home/lrp39/ros_ws/install
 Name: my_minimal_nodes
 Description: Description of my_minimal_nodes
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/lrp39/ros_ws/install/include
 Libs: -L/home/lrp39/ros_ws/install/lib 
-Requires: 
+Requires: roscpp std_msgs

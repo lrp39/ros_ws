@@ -1,4 +1,4 @@
-# sin_commander
+# my_minimal_nodes
 
 Your description goes here
 

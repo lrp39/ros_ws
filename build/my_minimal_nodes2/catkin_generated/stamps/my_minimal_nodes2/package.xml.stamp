@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>sin_commander</name>
+  <name>my_minimal_nodes2</name>
   <version>0.0.0</version>
-  <description>The sin_commander package</description>
+  <description>The my_minimal_nodes2 package</description>
   
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

@@ -1584,6 +1584,12 @@ mobot_urdf_BINARY_DIR:STATIC=/home/lrp39/ros_ws/build/learning_ros/Part_2/mobot_
 mobot_urdf_SOURCE_DIR:STATIC=/home/lrp39/ros_ws/src/learning_ros/Part_2/mobot_urdf
 
 //Value Computed by CMake
+my_minimal_nodes2_BINARY_DIR:STATIC=/home/lrp39/ros_ws/build/my_minimal_nodes2
+
+//Value Computed by CMake
+my_minimal_nodes2_SOURCE_DIR:STATIC=/home/lrp39/ros_ws/src/my_minimal_nodes2
+
+//Value Computed by CMake
 my_minimal_nodes_BINARY_DIR:STATIC=/home/lrp39/ros_ws/build/my_minimal_nodes
 
 //Value Computed by CMake

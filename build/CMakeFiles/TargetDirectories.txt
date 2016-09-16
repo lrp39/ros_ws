@@ -298,6 +298,7 @@
 /home/lrp39/ros_ws/build/learning_ros/Part_2/minimal_joint_controller/CMakeFiles/minimal_joint_controller.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_2/minimal_joint_controller/CMakeFiles/minimal_joint_controller_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/minimal_nodes/CMakeFiles/minimal_publisher.dir
+/home/lrp39/ros_ws/build/my_minimal_nodes/CMakeFiles/minimal_publisher3.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/minimal_nodes/CMakeFiles/minimal_simulator.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/minimal_nodes/CMakeFiles/minimal_subscriber.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_4/mobot_drifty_odom/CMakeFiles/mobot_drifty_odom.dir
@@ -321,6 +322,7 @@
 /home/lrp39/ros_ws/build/learning_ros/Part_4/mobot_pub_des_state/CMakeFiles/mobot_pub_des_state_startup.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_2/mobot_urdf/CMakeFiles/mobot_urdf_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_3/example_camera_calibration/CMakeFiles/move_calibration_checkerboard.dir
+/home/lrp39/ros_ws/build/my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_5/example_controllers/CMakeFiles/nac_controller.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/example_ros_service/CMakeFiles/nav_msgs_generate_messages_cpp.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/example_ros_service/CMakeFiles/nav_msgs_generate_messages_lisp.dir
@@ -406,7 +408,6 @@
 /home/lrp39/ros_ws/build/learning_ros/Part_5/baxter/simple_baxter_gripper_interface/CMakeFiles/simple_baxter_gripper_interface.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_5/baxter/simple_baxter_gripper_interface/CMakeFiles/simple_baxter_gripper_interface_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_3/simple_camera_model/CMakeFiles/simple_camera_model_package.dir
-/home/lrp39/ros_ws/build/sin_commander/CMakeFiles/sin_commander_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_2/sine_commander/CMakeFiles/sine_commander.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_2/sine_commander/CMakeFiles/sine_commander_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/minimal_nodes/CMakeFiles/sleepy_minimal_publisher.dir

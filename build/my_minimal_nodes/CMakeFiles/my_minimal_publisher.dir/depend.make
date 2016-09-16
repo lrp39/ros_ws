@@ -22,6 +22,7 @@ my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o
 my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/ros/message.h
 my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/ros/message_event.h
 my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/ros/message_forward.h
+my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/ros/message_operations.h
 my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/ros/message_traits.h
 my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/ros/names.h
 my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/ros/node_handle.h
@@ -57,4 +58,5 @@ my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o
 my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/ros/wall_timer.h
 my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/ros/wall_timer_options.h
 my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/rosconsole/macros_generated.h
+my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/src/minimal_publisher.cpp.o: /opt/ros/indigo/include/std_msgs/Float64.h
 
