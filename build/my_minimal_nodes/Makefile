@@ -150,20 +150,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/rule:
-	cd /home/lrp39/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/rule
-.PHONY : my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/rule
-
-# Convenience name for target.
-minimal_publisher3: my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/rule
-.PHONY : minimal_publisher3
-
-# fast build rule for target.
-minimal_publisher3/fast:
-	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build.make my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build
-.PHONY : minimal_publisher3/fast
-
-# Convenience name for target.
 my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/rule:
 	cd /home/lrp39/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/rule
 .PHONY : my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/rule
@@ -190,30 +176,6 @@ sin_commander: my_minimal_nodes/CMakeFiles/sin_commander.dir/rule
 sin_commander/fast:
 	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/sin_commander.dir/build.make my_minimal_nodes/CMakeFiles/sin_commander.dir/build
 .PHONY : sin_commander/fast
-
-src/minimal_publisher.o: src/minimal_publisher.cpp.o
-.PHONY : src/minimal_publisher.o
-
-# target to build an object file
-src/minimal_publisher.cpp.o:
-	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build.make my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/src/minimal_publisher.cpp.o
-.PHONY : src/minimal_publisher.cpp.o
-
-src/minimal_publisher.i: src/minimal_publisher.cpp.i
-.PHONY : src/minimal_publisher.i
-
-# target to preprocess a source file
-src/minimal_publisher.cpp.i:
-	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build.make my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/src/minimal_publisher.cpp.i
-.PHONY : src/minimal_publisher.cpp.i
-
-src/minimal_publisher.s: src/minimal_publisher.cpp.s
-.PHONY : src/minimal_publisher.s
-
-# target to generate assembly for a file
-src/minimal_publisher.cpp.s:
-	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build.make my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/src/minimal_publisher.cpp.s
-.PHONY : src/minimal_publisher.cpp.s
 
 src/sin_commander.o: src/sin_commander.cpp.o
 .PHONY : src/sin_commander.o
@@ -250,14 +212,10 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... minimal_publisher3"
 	@echo "... my_minimal_nodes_package"
 	@echo "... rebuild_cache"
 	@echo "... sin_commander"
 	@echo "... test"
-	@echo "... src/minimal_publisher.o"
-	@echo "... src/minimal_publisher.i"
-	@echo "... src/minimal_publisher.s"
 	@echo "... src/sin_commander.o"
 	@echo "... src/sin_commander.i"
 	@echo "... src/sin_commander.s"

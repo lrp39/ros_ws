@@ -33,24 +33,6 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_minimal_nodes/minimal_publisher3" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_minimal_nodes/minimal_publisher3")
-    FILE(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_minimal_nodes/minimal_publisher3"
-         RPATH "")
-  ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_minimal_nodes" TYPE EXECUTABLE FILES "/home/lrp39/ros_ws/devel/lib/my_minimal_nodes/minimal_publisher3")
-  IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_minimal_nodes/minimal_publisher3" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_minimal_nodes/minimal_publisher3")
-    FILE(RPATH_REMOVE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_minimal_nodes/minimal_publisher3")
-    IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_minimal_nodes/minimal_publisher3")
-    ENDIF(CMAKE_INSTALL_DO_STRIP)
-  ENDIF()
-ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-
-IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_minimal_nodes/sin_commander" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_minimal_nodes/sin_commander")
     FILE(RPATH_CHECK

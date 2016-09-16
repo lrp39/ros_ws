@@ -2074,19 +2074,6 @@ mobot_urdf_package/fast:
 .PHONY : mobot_urdf_package/fast
 
 #=============================================================================
-# Target rules for targets named minimal_publisher3
-
-# Build rule for target.
-minimal_publisher3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 minimal_publisher3
-.PHONY : minimal_publisher3
-
-# fast build rule for target.
-minimal_publisher3/fast:
-	$(MAKE) -f my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build.make my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/build
-.PHONY : minimal_publisher3/fast
-
-#=============================================================================
 # Target rules for targets named my_minimal_nodes_package
 
 # Build rule for target.
@@ -6238,7 +6225,6 @@ help:
 	@echo "... mobot_nl_steering"
 	@echo "... mobot_nl_steering_package"
 	@echo "... mobot_urdf_package"
-	@echo "... minimal_publisher3"
 	@echo "... my_minimal_nodes_package"
 	@echo "... sin_commander"
 	@echo "... inner_vel_loop"

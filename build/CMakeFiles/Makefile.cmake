@@ -891,7 +891,6 @@ SET(CMAKE_DEPEND_INFO_FILES
   "learning_ros/Part_4/mobot_nl_steering/CMakeFiles/mobot_nl_steering.dir/DependInfo.cmake"
   "learning_ros/Part_4/mobot_nl_steering/CMakeFiles/mobot_nl_steering_package.dir/DependInfo.cmake"
   "learning_ros/Part_2/mobot_urdf/CMakeFiles/mobot_urdf_package.dir/DependInfo.cmake"
-  "my_minimal_nodes/CMakeFiles/minimal_publisher3.dir/DependInfo.cmake"
   "my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/DependInfo.cmake"
   "my_minimal_nodes/CMakeFiles/sin_commander.dir/DependInfo.cmake"
   "learning_ros/Part_5/arm7dof/nested_loop_control/CMakeFiles/inner_vel_loop.dir/DependInfo.cmake"

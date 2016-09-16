@@ -298,7 +298,6 @@
 /home/lrp39/ros_ws/build/learning_ros/Part_2/minimal_joint_controller/CMakeFiles/minimal_joint_controller.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_2/minimal_joint_controller/CMakeFiles/minimal_joint_controller_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/minimal_nodes/CMakeFiles/minimal_publisher.dir
-/home/lrp39/ros_ws/build/my_minimal_nodes/CMakeFiles/minimal_publisher3.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/minimal_nodes/CMakeFiles/minimal_simulator.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/minimal_nodes/CMakeFiles/minimal_subscriber.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_4/mobot_drifty_odom/CMakeFiles/mobot_drifty_odom.dir
