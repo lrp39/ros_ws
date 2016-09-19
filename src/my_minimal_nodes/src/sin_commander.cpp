@@ -59,7 +59,7 @@ int main(int argc, char **argv) {
 
         //print the velocity calculated
         ROS_INFO("velocity = %f", g_velocity.data);
-
+        ros::Rate(15).sleep();
         ros::spinOnce(); //allow data update from callback; 
 
     }
