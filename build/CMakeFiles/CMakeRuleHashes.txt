@@ -42,6 +42,7 @@ e46f9704a4957d2e33862226001dd671 /home/lrp39/ros_ws/devel/include/example_trajec
 8c495ff4f479e4e9ad9abb1275f544cc /home/lrp39/ros_ws/devel/include/example_trajectory/TrajActionGoal.h
 6931958debbe9b265c3e4108263cf787 /home/lrp39/ros_ws/devel/include/example_trajectory/TrajActionResult.h
 30bc971fa6f5e25efdc7ce390dbd48ed /home/lrp39/ros_ws/devel/include/mobot_pub_des_state/path.h
+0178c917a98aaa389cd113a035fe43ea /home/lrp39/ros_ws/devel/include/my_minimal_nodes/VelocityCommanderMsg.h
 51859c6e200d860ff8dc4cd370d12441 /home/lrp39/ros_ws/devel/include/navigator/navigatorAction.h
 8562bc9105238faac18f59baf4afbf38 /home/lrp39/ros_ws/devel/include/navigator/navigatorActionFeedback.h
 71d7c6aea01b03c141b84ffec9c7a189 /home/lrp39/ros_ws/devel/include/navigator/navigatorActionGoal.h
@@ -118,6 +119,8 @@ e2ab565e094d3768654e423d4b12f094 /home/lrp39/ros_ws/devel/lib/python2.7/dist-pac
 b46c41712ca5f470c1f67f767f11e2c6 /home/lrp39/ros_ws/devel/lib/python2.7/dist-packages/example_trajectory/msg/__init__.py
 993e33a2e7d6df40e22e190f3e3b8bd1 /home/lrp39/ros_ws/devel/lib/python2.7/dist-packages/mobot_pub_des_state/srv/__init__.py
 167612be650a24b97698ebed089ca990 /home/lrp39/ros_ws/devel/lib/python2.7/dist-packages/mobot_pub_des_state/srv/_path.py
+845d542133b547de5f89a2b51afe3a38 /home/lrp39/ros_ws/devel/lib/python2.7/dist-packages/my_minimal_nodes/srv/_VelocityCommanderMsg.py
+19679730581a18a5e7af687fc5b297c3 /home/lrp39/ros_ws/devel/lib/python2.7/dist-packages/my_minimal_nodes/srv/__init__.py
 eb3bd983e1a4a763a6a7143f4057df3c /home/lrp39/ros_ws/devel/lib/python2.7/dist-packages/navigator/msg/__init__.py
 b9c10859d2c999bab62bb98760662b85 /home/lrp39/ros_ws/devel/lib/python2.7/dist-packages/navigator/msg/_navigatorAction.py
 157474987b53525f419a36e46641f26b /home/lrp39/ros_ws/devel/lib/python2.7/dist-packages/navigator/msg/_navigatorActionFeedback.py
@@ -185,6 +188,7 @@ e18d55937d46cdb52573a01f7d429a61 /home/lrp39/ros_ws/devel/share/common-lisp/ros/
 fe06c192f01f170d6453faef16f7989c /home/lrp39/ros_ws/devel/share/common-lisp/ros/example_trajectory/msg/TrajActionGoal.lisp
 51f37fba80da46921fd8b474dbcf5e2d /home/lrp39/ros_ws/devel/share/common-lisp/ros/example_trajectory/msg/TrajActionResult.lisp
 317bc2474f8ddb925e785278936649e9 /home/lrp39/ros_ws/devel/share/common-lisp/ros/mobot_pub_des_state/srv/path.lisp
+969f535e43d82af0aeab81c520dbf22d /home/lrp39/ros_ws/devel/share/common-lisp/ros/my_minimal_nodes/srv/VelocityCommanderMsg.lisp
 2c7f9fe5e5c1b3a8cbde7016e8df401d /home/lrp39/ros_ws/devel/share/common-lisp/ros/navigator/msg/navigatorAction.lisp
 69423d1d44a52ff868b9839f8f8c4574 /home/lrp39/ros_ws/devel/share/common-lisp/ros/navigator/msg/navigatorActionFeedback.lisp
 c8444ca9351b53a355c6d25ce1bb68ce /home/lrp39/ros_ws/devel/share/common-lisp/ros/navigator/msg/navigatorActionGoal.lisp
@@ -261,6 +265,8 @@ cf6004c4eb47837a17206d5092b9842a /home/lrp39/ros_ws/devel/share/roseus/ros/examp
 faa8a78eb2155190555944ed2343948c /home/lrp39/ros_ws/devel/share/roseus/ros/example_trajectory/msg/TrajActionResult.l
 4f1f81277db9155467d9898e6f2f7bf5 /home/lrp39/ros_ws/devel/share/roseus/ros/mobot_pub_des_state/manifest.l
 bfe03b5088e1c874b7482eceb672af48 /home/lrp39/ros_ws/devel/share/roseus/ros/mobot_pub_des_state/srv/path.l
+3c1d942031c6dd832134d864d29871b8 /home/lrp39/ros_ws/devel/share/roseus/ros/my_minimal_nodes/manifest.l
+fc03789cde6990b09372697791229184 /home/lrp39/ros_ws/devel/share/roseus/ros/my_minimal_nodes/srv/VelocityCommanderMsg.l
 1e1d74ae4e5edd5228bbafa8353fbd76 /home/lrp39/ros_ws/devel/share/roseus/ros/navigator/manifest.l
 145bb74aa3aa671d26f9c7c59ddbf384 /home/lrp39/ros_ws/devel/share/roseus/ros/navigator/msg/navigatorAction.l
 a29c6ddbd98fcf76c18e95e70f9e8433 /home/lrp39/ros_ws/devel/share/roseus/ros/navigator/msg/navigatorActionFeedback.l
@@ -617,4 +623,14 @@ a4e74a3c6941c6cebb9a6ebbdd8c7f32 learning_ros/exmpl_models/CMakeFiles/exmpl_mode
 5e5e38c5674d00bebe5499fec36f78a1 learning_ros_external_packages/rviz_plugin_selected_points_topic/CMakeFiles/map_msgs_generate_messages_lisp
 5e5e38c5674d00bebe5499fec36f78a1 learning_ros_external_packages/rviz_plugin_selected_points_topic/CMakeFiles/map_msgs_generate_messages_py
 18cbdc092e09469e1ac18ebf9e1a5b98 learning_ros_external_packages/rviz_plugin_selected_points_topic/src/moc_selected_points_topic.cxx
+bb65c1608857843886c243c7c0678795 my_minimal_nodes/CMakeFiles/_my_minimal_nodes_generate_messages_check_deps_VelocityCommanderMsg
+a319536a383203e8b1aaca9e17d9b36a my_minimal_nodes/CMakeFiles/my_minimal_nodes_gencpp
+a319536a383203e8b1aaca9e17d9b36a my_minimal_nodes/CMakeFiles/my_minimal_nodes_generate_messages
+a319536a383203e8b1aaca9e17d9b36a my_minimal_nodes/CMakeFiles/my_minimal_nodes_generate_messages_cpp
+a319536a383203e8b1aaca9e17d9b36a my_minimal_nodes/CMakeFiles/my_minimal_nodes_generate_messages_eus
+a319536a383203e8b1aaca9e17d9b36a my_minimal_nodes/CMakeFiles/my_minimal_nodes_generate_messages_lisp
+a319536a383203e8b1aaca9e17d9b36a my_minimal_nodes/CMakeFiles/my_minimal_nodes_generate_messages_py
+a319536a383203e8b1aaca9e17d9b36a my_minimal_nodes/CMakeFiles/my_minimal_nodes_geneus
+a319536a383203e8b1aaca9e17d9b36a my_minimal_nodes/CMakeFiles/my_minimal_nodes_genlisp
+a319536a383203e8b1aaca9e17d9b36a my_minimal_nodes/CMakeFiles/my_minimal_nodes_genpy
 a319536a383203e8b1aaca9e17d9b36a my_minimal_nodes/CMakeFiles/my_minimal_nodes_package

@@ -1,0 +1,5 @@
+std_msgs/Float64 amplitude
+std_msgs/Float64 frequency
+---
+string message
+

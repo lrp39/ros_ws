@@ -145,7 +145,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(my_minimal_nodes_EXPORTED_TARGETS "")
+set(my_minimal_nodes_EXPORTED_TARGETS "my_minimal_nodes_generate_messages_cpp;my_minimal_nodes_generate_messages_eus;my_minimal_nodes_generate_messages_lisp;my_minimal_nodes_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${my_minimal_nodes_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -153,7 +153,7 @@ foreach(t ${my_minimal_nodes_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "roscpp;std_msgs")
+set(depends "message_runtime;roscpp;std_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
@@ -182,7 +182,7 @@ foreach(depend ${depends})
   list(APPEND my_minimal_nodes_EXPORTED_TARGETS ${${my_minimal_nodes_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "my_minimal_nodes-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${my_minimal_nodes_DIR}/${extra})
