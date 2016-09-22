@@ -1844,6 +1844,12 @@ using_a_ros_library_BINARY_DIR:STATIC=/home/lrp39/ros_ws/build/learning_ros/Part
 //Value Computed by CMake
 using_a_ros_library_SOURCE_DIR:STATIC=/home/lrp39/ros_ws/src/learning_ros/Part_1/using_a_ros_library
 
+//Value Computed by CMake
+velocity_commander_service_BINARY_DIR:STATIC=/home/lrp39/ros_ws/build/velocity_commander_service
+
+//Value Computed by CMake
+velocity_commander_service_SOURCE_DIR:STATIC=/home/lrp39/ros_ws/src/velocity_commander_service
+
 //The directory containing a CMake configuration file for visualization_markers.
 visualization_markers_DIR:PATH=visualization_markers_DIR-NOTFOUND
 

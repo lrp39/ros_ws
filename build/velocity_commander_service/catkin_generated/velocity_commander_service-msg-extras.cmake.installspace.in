@@ -1,0 +1,2 @@
+set(velocity_commander_service_MESSAGE_FILES "")
+set(velocity_commander_service_SERVICE_FILES "srv/VelocityCommanderServiceMsg.srv")

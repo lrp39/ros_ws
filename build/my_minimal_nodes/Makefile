@@ -345,6 +345,34 @@ sin_commander/fast:
 	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/sin_commander.dir/build.make my_minimal_nodes/CMakeFiles/sin_commander.dir/build
 .PHONY : sin_commander/fast
 
+# Convenience name for target.
+my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/rule:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/rule
+.PHONY : my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/rule
+
+# Convenience name for target.
+velocity_commander_client: my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/rule
+.PHONY : velocity_commander_client
+
+# fast build rule for target.
+velocity_commander_client/fast:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/build.make my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/build
+.PHONY : velocity_commander_client/fast
+
+# Convenience name for target.
+my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/rule:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/rule
+.PHONY : my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/rule
+
+# Convenience name for target.
+velocity_commander_service: my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/rule
+.PHONY : velocity_commander_service
+
+# fast build rule for target.
+velocity_commander_service/fast:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/build.make my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/build
+.PHONY : velocity_commander_service/fast
+
 src/minimal_controller.o: src/minimal_controller.cpp.o
 .PHONY : src/minimal_controller.o
 
@@ -417,6 +445,54 @@ src/sin_commander.cpp.s:
 	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/sin_commander.dir/build.make my_minimal_nodes/CMakeFiles/sin_commander.dir/src/sin_commander.cpp.s
 .PHONY : src/sin_commander.cpp.s
 
+src/velocity_commander_client.o: src/velocity_commander_client.cpp.o
+.PHONY : src/velocity_commander_client.o
+
+# target to build an object file
+src/velocity_commander_client.cpp.o:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/build.make my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/src/velocity_commander_client.cpp.o
+.PHONY : src/velocity_commander_client.cpp.o
+
+src/velocity_commander_client.i: src/velocity_commander_client.cpp.i
+.PHONY : src/velocity_commander_client.i
+
+# target to preprocess a source file
+src/velocity_commander_client.cpp.i:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/build.make my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/src/velocity_commander_client.cpp.i
+.PHONY : src/velocity_commander_client.cpp.i
+
+src/velocity_commander_client.s: src/velocity_commander_client.cpp.s
+.PHONY : src/velocity_commander_client.s
+
+# target to generate assembly for a file
+src/velocity_commander_client.cpp.s:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/build.make my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/src/velocity_commander_client.cpp.s
+.PHONY : src/velocity_commander_client.cpp.s
+
+src/velocity_commander_service.o: src/velocity_commander_service.cpp.o
+.PHONY : src/velocity_commander_service.o
+
+# target to build an object file
+src/velocity_commander_service.cpp.o:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/build.make my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/src/velocity_commander_service.cpp.o
+.PHONY : src/velocity_commander_service.cpp.o
+
+src/velocity_commander_service.i: src/velocity_commander_service.cpp.i
+.PHONY : src/velocity_commander_service.i
+
+# target to preprocess a source file
+src/velocity_commander_service.cpp.i:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/build.make my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/src/velocity_commander_service.cpp.i
+.PHONY : src/velocity_commander_service.cpp.i
+
+src/velocity_commander_service.s: src/velocity_commander_service.cpp.s
+.PHONY : src/velocity_commander_service.s
+
+# target to generate assembly for a file
+src/velocity_commander_service.cpp.s:
+	cd /home/lrp39/ros_ws/build && $(MAKE) -f my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/build.make my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/src/velocity_commander_service.cpp.s
+.PHONY : src/velocity_commander_service.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -444,6 +520,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... sin_commander"
 	@echo "... test"
+	@echo "... velocity_commander_client"
+	@echo "... velocity_commander_service"
 	@echo "... src/minimal_controller.o"
 	@echo "... src/minimal_controller.i"
 	@echo "... src/minimal_controller.s"
@@ -453,6 +531,12 @@ help:
 	@echo "... src/sin_commander.o"
 	@echo "... src/sin_commander.i"
 	@echo "... src/sin_commander.s"
+	@echo "... src/velocity_commander_client.o"
+	@echo "... src/velocity_commander_client.i"
+	@echo "... src/velocity_commander_client.s"
+	@echo "... src/velocity_commander_service.o"
+	@echo "... src/velocity_commander_service.i"
+	@echo "... src/velocity_commander_service.s"
 .PHONY : help
 
 

@@ -1,19 +1,21 @@
 #include <ros/ros.h>
-#include <velocity_commander_service/VelocityCommanderServiceMsg.h>
+#include <my_minimal_nodes/VelocityCommanderMsg.h>
 #include <math.h> 
 
-std_msgs::Float64 g_amplitude;
+std_msgs::Float64 g_amplitude; 
 std_msgs::Float64 g_frequency;  
 std_msgs::Float64 g_velocity; //the velocity that will be published
 
-bool callback(velocity_commander_service::VelocityCommanderServiceMsgRequest& request, velocity_commander_service::VelocityCommanderServiceMsgResponse& response)
+bool callback(my_minimal_nodes::VelocityCommanderMsgRequest& request, my_minimal_nodes::VelocityCommanderMsgResponse& response)
 {
     ROS_INFO("callback callback activated");
-    std_msgs::Float64 g_amplitude =request.amplitude;
-    std_msgs::Float64 g_frequency =request.frequency; 
+
+    //store the imputted amplitude and frequency
+    g_amplitude =request.amplitude;
+    g_frequency=request.frequency; 
 
     ROS_INFO("recieved amplitude and frequency values");
-    response.message = "amplitude and frequency values set"
+    response.message = "amplitude and frequency values set"; //Let client know values were recieved
 
   	return true;
 }
@@ -22,28 +24,30 @@ bool callback(velocity_commander_service::VelocityCommanderServiceMsgRequest& re
 int main(int argc, char **argv)
 {
   ros::init(argc, argv, "velocity_commander_service");
-  ros::NodeHandle n;
+  ros::NodeHandle nh;
 
   ros::Publisher my_publisher_object = nh.advertise<std_msgs::Float64>("vel_cmd", 1);
+
+  valuesSet=false;
   g_velocity.data = 0.0; //initalize velocity to zero
 
   //Time starts at zero and goes up by dt
-   double t = 0.0;
-   double dt = 0.01; 
+  double t = 0.0;
+  double dt = 0.01; 
 
-   g_amplitude.data = 0.0; //initialize the amplitude
-   g_frequency.data =0.0; //initialize the frequency
+  g_amplitude.data = 0.0; //initialize the amplitude
+  g_frequency.data =0.0; //initialize the frequency
 
   //creates a service that will take requests of amplitudes and frequencies to give
-  ros::ServiceServer service = n.advertiseService("command velocity", callback);
+  ros::ServiceServer service = nh.advertiseService("command_velocity", callback);
   ROS_INFO("Ready command velocity.");
 
   // do work here in infinite loop (desired for this example), but terminate if detect ROS has faulted
     while(ros::ok()) {
 
-        
+     
         //compute the velocity from the inputs
-        g_velocity.data = g_amplitude.data* sin(2* g_frequency.data * 3.14159 * t ); 
+        g_velocity.data = g_amplitude.data * sin(2* g_frequency.data * 3.14159 * t ); 
 
         //increment time 
         t= dt +t;

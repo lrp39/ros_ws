@@ -34,6 +34,8 @@ catkin_simple()
  cs_add_executable(sin_commander src/sin_commander.cpp)
  cs_add_executable(my_minimal_controller src/minimal_controller.cpp)
  cs_add_executable(my_minimal_simulator src/minimal_simulator.cpp)
+ cs_add_executable(velocity_commander_service src/velocity_commander_service.cpp)
+ cs_add_executable(velocity_commander_client src/velocity_commander_client.cpp)
 
 #the following is required, if desire to link a node in this package with a library created in this same package
 # edit the arguments to reference the named node and named library within this package

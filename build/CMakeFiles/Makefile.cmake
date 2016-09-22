@@ -909,6 +909,8 @@ SET(CMAKE_DEPEND_INFO_FILES
   "my_minimal_nodes/CMakeFiles/my_minimal_nodes_package.dir/DependInfo.cmake"
   "my_minimal_nodes/CMakeFiles/my_minimal_simulator.dir/DependInfo.cmake"
   "my_minimal_nodes/CMakeFiles/sin_commander.dir/DependInfo.cmake"
+  "my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/DependInfo.cmake"
+  "my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/DependInfo.cmake"
   "learning_ros/Part_5/arm7dof/nested_loop_control/CMakeFiles/inner_vel_loop.dir/DependInfo.cmake"
   "learning_ros/Part_5/arm7dof/nested_loop_control/CMakeFiles/nested_loop_control_package.dir/DependInfo.cmake"
   "learning_ros/Part_5/arm7dof/nested_loop_control/CMakeFiles/test_inner_vel_loop.dir/DependInfo.cmake"

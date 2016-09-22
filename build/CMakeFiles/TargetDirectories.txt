@@ -458,6 +458,8 @@
 /home/lrp39/ros_ws/build/learning_ros/Part_1/using_a_ros_library/CMakeFiles/using_a_ros_library_package.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/example_ros_msg/CMakeFiles/vector_publisher.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_1/example_ros_msg/CMakeFiles/vector_subscriber.dir
+/home/lrp39/ros_ws/build/my_minimal_nodes/CMakeFiles/velocity_commander_client.dir
+/home/lrp39/ros_ws/build/my_minimal_nodes/CMakeFiles/velocity_commander_service.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_2/example_rviz_marker/CMakeFiles/visualization_msgs_generate_messages_cpp.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_2/example_rviz_marker/CMakeFiles/visualization_msgs_generate_messages_lisp.dir
 /home/lrp39/ros_ws/build/learning_ros/Part_2/example_rviz_marker/CMakeFiles/visualization_msgs_generate_messages_py.dir

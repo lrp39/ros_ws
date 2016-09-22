@@ -2256,6 +2256,32 @@ sin_commander/fast:
 .PHONY : sin_commander/fast
 
 #=============================================================================
+# Target rules for targets named velocity_commander_client
+
+# Build rule for target.
+velocity_commander_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 velocity_commander_client
+.PHONY : velocity_commander_client
+
+# fast build rule for target.
+velocity_commander_client/fast:
+	$(MAKE) -f my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/build.make my_minimal_nodes/CMakeFiles/velocity_commander_client.dir/build
+.PHONY : velocity_commander_client/fast
+
+#=============================================================================
+# Target rules for targets named velocity_commander_service
+
+# Build rule for target.
+velocity_commander_service: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 velocity_commander_service
+.PHONY : velocity_commander_service
+
+# fast build rule for target.
+velocity_commander_service/fast:
+	$(MAKE) -f my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/build.make my_minimal_nodes/CMakeFiles/velocity_commander_service.dir/build
+.PHONY : velocity_commander_service/fast
+
+#=============================================================================
 # Target rules for targets named inner_vel_loop
 
 # Build rule for target.
@@ -6395,6 +6421,8 @@ help:
 	@echo "... my_minimal_nodes_package"
 	@echo "... my_minimal_simulator"
 	@echo "... sin_commander"
+	@echo "... velocity_commander_client"
+	@echo "... velocity_commander_service"
 	@echo "... inner_vel_loop"
 	@echo "... nested_loop_control_package"
 	@echo "... test_inner_vel_loop"
