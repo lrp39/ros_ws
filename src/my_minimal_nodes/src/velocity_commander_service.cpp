@@ -28,7 +28,6 @@ int main(int argc, char **argv)
 
   ros::Publisher my_publisher_object = nh.advertise<std_msgs::Float64>("vel_cmd", 1);
 
-  valuesSet=false;
   g_velocity.data = 0.0; //initalize velocity to zero
 
   //Time starts at zero and goes up by dt
@@ -55,8 +54,6 @@ int main(int argc, char **argv)
         //publish the new velocity to topic: vel_cmd
         my_publisher_object.publish(g_velocity); 
 
-        //print the velocity calculated
-        ROS_INFO("velocity = %f", g_velocity.data);
         ros::Rate(15).sleep();
         ros::spinOnce(); //allow data update from callback; 
 

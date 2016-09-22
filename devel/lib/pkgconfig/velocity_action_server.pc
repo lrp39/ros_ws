@@ -1,0 +1,8 @@
+prefix=/home/lrp39/ros_ws/devel
+
+Name: velocity_action_server
+Description: Description of velocity_action_server
+Version: 0.0.0
+Cflags: -I/home/lrp39/ros_ws/devel/include -I/home/lrp39/ros_ws/src/velocity_action_server/include
+Libs: -L/home/lrp39/ros_ws/devel/lib 
+Requires: message_runtime roscpp actionlib
